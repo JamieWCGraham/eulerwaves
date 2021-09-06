@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "start":"node index.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.12"
+  }
+}

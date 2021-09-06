@@ -1,0 +1,61 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5), 
+        rgba(255,255,255,0.5)
+        ), 
+        url(https://images.immediate.co.uk/production/volatile/sites/4/2009/09/GettyImages-884671854-4946bb3.jpg?quality=90&resize=960%2C408);
+    background-size: cover;
+    }
+
+    .loginTitle {
+        font-size: 80px;
+    }
+
+    .loginForm{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .loginForm > label{
+        margin: 10px 0;
+    }
+
+    .loginInput {
+        padding: 10px;
+        width: 250px;
+        background-color: white;
+        border: none;
+    }
+
+    .loginButton{
+        margin-top: 20px;
+        cursor:pointer;
+        background-color: lightcoral;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .loginButton:disabled{
+        cursor: not-allowed;
+        background-color: red;
+    }
+
+    .loginRegisterButton{
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: teal;
+        cursor: pointer;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+    }
