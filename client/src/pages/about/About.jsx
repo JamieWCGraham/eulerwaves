@@ -23,7 +23,8 @@ export default function About() {
             <div className="CVContainer">
             <Document
             className="CV"
-            file={Resume}
+            // file={Resume}
+            file="https://pdfhost.io/v/0pozHEhDY_Resume.pdf"
             onLoadSuccess={onDocumentLoadSuccess}>
             <Page pageNumber={pageNumber} width={Math.min(width, 1400)} size="A0" />
             </Document>

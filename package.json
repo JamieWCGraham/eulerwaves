@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "resolutions": { "dfa": "1.1.0" },
   "scripts": {
     "heroku-postbuild": "cd client && npm install && npm run build",
     "start":"node index.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "preinstall": "npx npm-force-resolutions"
   },
   "author": "",
   "license": "ISC",

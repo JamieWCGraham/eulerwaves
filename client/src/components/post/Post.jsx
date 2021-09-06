@@ -5,7 +5,7 @@ import {Context} from '../../context/Context';
 
 
 export default function Post({post}) {
-    const PF = "http://localhost:5000/images/"
+    const PF = "https://eulerwaves.herokuapp.com/api/images/"
     const {user} = useContext(Context);
     return (
         <>
